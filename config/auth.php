@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => ProjetoAngular\User::class,
+    'model' => ProjetoAngular\Entities\User::class,
 
     /*
     |--------------------------------------------------------------------------

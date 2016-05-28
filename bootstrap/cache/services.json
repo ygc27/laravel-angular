@@ -24,11 +24,13 @@
         "Illuminate\\Validation\\ValidationServiceProvider",
         "Illuminate\\View\\ViewServiceProvider",
         "Prettus\\Repository\\Providers\\RepositoryServiceProvider",
+        "LucaDegasperi\\OAuth2Server\\Storage\\FluentStorageServiceProvider",
+        "LucaDegasperi\\OAuth2Server\\OAuth2ServerServiceProvider",
         "ProjetoAngular\\Providers\\AppServiceProvider",
         "ProjetoAngular\\Providers\\AuthServiceProvider",
         "ProjetoAngular\\Providers\\EventServiceProvider",
         "ProjetoAngular\\Providers\\RouteServiceProvider",
-        "ProjetoAngular\\Providers\\LaravelAngularRepositoryProvider"
+        "ProjetoAngular\\Providers\\ProjetoAngularRepositoryProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -43,11 +45,13 @@
         "Illuminate\\Validation\\ValidationServiceProvider",
         "Illuminate\\View\\ViewServiceProvider",
         "Prettus\\Repository\\Providers\\RepositoryServiceProvider",
+        "LucaDegasperi\\OAuth2Server\\Storage\\FluentStorageServiceProvider",
+        "LucaDegasperi\\OAuth2Server\\OAuth2ServerServiceProvider",
         "ProjetoAngular\\Providers\\AppServiceProvider",
         "ProjetoAngular\\Providers\\AuthServiceProvider",
         "ProjetoAngular\\Providers\\EventServiceProvider",
         "ProjetoAngular\\Providers\\RouteServiceProvider",
-        "ProjetoAngular\\Providers\\LaravelAngularRepositoryProvider"
+        "ProjetoAngular\\Providers\\ProjetoAngularRepositoryProvider"
     ],
     "deferred": {
         "command.app.name": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",
