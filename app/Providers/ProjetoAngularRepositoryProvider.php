@@ -4,7 +4,7 @@ namespace ProjetoAngular\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelAngularRepositoryProvider extends ServiceProvider
+class ProjetoAngularRepositoryProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

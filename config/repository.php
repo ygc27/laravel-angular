@@ -220,7 +220,7 @@ return [
     */
     'generator'  => [
         'basePath'      => app_path(),
-        'rootNamespace' => 'LaravelAngular\\',
+        'rootNamespace' => 'ProjetoAngular\\',
         'paths'         => [
             'models'       => 'Entities',
             'repositories' => 'Repositories',
