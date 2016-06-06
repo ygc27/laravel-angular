@@ -7,30 +7,31 @@ use Prettus\Repository\Criteria\RequestCriteria;
 use ProjetoAngular\Repositories\ProjectNoteRepository;
 use ProjetoAngular\Entities\ProjectNote;
 use ProjetoAngular\Validators\ProjectNoteValidator;
-
+use ProjetoAngular\Presenters\ProjectNotePresenter;
 /**
  * Class ProjectNoteRepositoryEloquent
  * @package namespace ProjetoAngular\Repositories;
  */
-class ProjectNoteRepositoryEloquent extends BaseRepository implements ProjectNoteRepository
-{
+class ProjectNoteRepositoryEloquent extends BaseRepository implements ProjectNoteRepository {
+
     /**
      * Specify Model class name
      *
      * @return string
      */
-    public function model()
-    {
+    public function model() {
         return ProjectNote::class;
     }
-
-    
 
     /**
      * Boot up the repository, pushing criteria
      */
-    public function boot()
-    {
+    public function boot() {
         $this->pushCriteria(app(RequestCriteria::class));
     }
+
+    public function presenter() {
+        return ProjectNotePresenter::class;
+    }
+
 }

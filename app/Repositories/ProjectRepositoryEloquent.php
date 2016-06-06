@@ -6,7 +6,7 @@ use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
 use ProjetoAngular\Repositories\ProjectRepository;
 use ProjetoAngular\Entities\Project;
-use ProjetoAngular\Validators\ProjectValidator;
+//use ProjetoAngular\Validators\ProjectValidator;
 use ProjetoAngular\Presenters\ProjectPresenter;
 
 /**

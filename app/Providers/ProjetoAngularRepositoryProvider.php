@@ -37,5 +37,9 @@ class ProjetoAngularRepositoryProvider extends ServiceProvider
                 \ProjetoAngular\Repositories\ProjectNoteRepository::class,
                 \ProjetoAngular\Repositories\ProjectNoteRepositoryEloquent::class
                 );
+           $this->app->bind(
+                \ProjetoAngular\Repositories\UserRepository::class,
+                \ProjetoAngular\Repositories\UserRepositoryEloquent::class
+                );
     }
 }
